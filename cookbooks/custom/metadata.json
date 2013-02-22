@@ -1,0 +1,30 @@
+{
+  "name": "custom",
+  "description": "custom chef recipes",
+  "long_description": "Description\n===========\n\nRequirements\n============\n\nAttributes\n==========\n\nUsage\n=====\n\n",
+  "maintainer": "Joe Haskins",
+  "maintainer_email": "joe@commercialprogression.com",
+  "license": "none",
+  "platforms": {
+  },
+  "dependencies": {
+  },
+  "recommendations": {
+  },
+  "suggestions": {
+  },
+  "conflicting": {
+  },
+  "providing": {
+  },
+  "replacing": {
+  },
+  "attributes": {
+  },
+  "groupings": {
+  },
+  "recipes": {
+    "custom::apache2 service": "Creates apache2 service without installing anything."
+  },
+  "version": "0.0.1"
+}
