@@ -8,7 +8,8 @@ case node['platform']
 when 'centos', 'redhat', 'fedora'
   # Configure repo
   yum_repository "apache2.4" do
-    url "https://s3.amazonaws.com/apache2.4/repo/CentOS/6/$basearch"
+    name "Apache 2.4"
+    url "https://s3.amazonaws.com/apache2.4/repo/CentOS/6/x86_64"
     action :add
   end
 end
