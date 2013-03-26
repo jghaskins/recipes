@@ -24,7 +24,8 @@
   "groupings": {
   },
   "recipes": {
-    "custom::apache2_service": "Creates apache2 service without installing anything."
+    "custom::apache2_service": "Creates apache2 service without installing anything.",
+    "custom::install_apache2.4": "Installs apache 2.4."
   },
   "version": "0.0.1"
 }
