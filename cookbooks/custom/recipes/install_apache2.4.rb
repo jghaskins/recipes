@@ -1,5 +1,5 @@
 #
-# Author::  Joe Haskins(<joe@commercialprogression.com.com>)
+# Author::  Joe Haskins(<joe@commercialprogression.com>)
 # Cookbook Name:: install_apache2.4
 # Recipe:: default
 #
