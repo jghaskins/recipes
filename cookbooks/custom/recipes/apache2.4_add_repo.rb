@@ -2,11 +2,12 @@
 # Author::  Joe Haskins(<joe@commercialprogression.com>)
 # Cookbook Name:: install_apache2-4
 #
-
-# Configure repo
-yum_repository "apache_2-4" do
-  name "Apache_2-4"
-  url "https://s3.amazonaws.com/apache2.4/repo/CentOS/6/x86_64"
-  action :add
+remote_file "/etc/yum.repos.d/apache_2-4.repo" do
+  source "https://s3.amazonaws.com/apache2.4/repo/apache_2-4.repo"
+  notifies :run, resources(:execute => "yum_makecache"), :immediately
 end
 
+execute "yum_makecache" do
+  command "yum makecache"
+  action :nothing
+end
