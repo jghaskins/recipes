@@ -7,5 +7,5 @@ version          "0.0.1"
 
 recipe "custom::apache2_service",
   "Creates apache2 service without installing anything."
-recipe "custom::install_apache2.4",
-  "Installs apache 2.4."
+recipe "custom::apache2.4_add_repo",
+  "Add apache 2.4 repo."
