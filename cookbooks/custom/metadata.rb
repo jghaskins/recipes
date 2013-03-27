@@ -9,3 +9,5 @@ recipe "custom::apache2_service",
   "Creates apache2 service without installing anything."
 recipe "custom::apache2.4_add_repo",
   "Add apache 2.4 repo."
+recipe "custom::apache2.4_install",
+  "Install apache 2.4."
